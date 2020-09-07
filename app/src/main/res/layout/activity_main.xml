@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/floor"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_gname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MEMORY GAMES"
+        android:textAlignment="center"
+        android:textColor="#E91E63"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_num_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Game"
+        android:textAlignment="center"
+        android:textColor="#E65100"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_numGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="numGame"
+        android:text="PLAY"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_pic_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Picture Game"
+        android:textAlignment="center"
+        android:textColor="#F57F17"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/b_picGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="picGame"
+        android:text="PLAY"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/b_Exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exGame"
+        android:text="EXIT"
+        android:textSize="20sp" />
+</LinearLayout>
